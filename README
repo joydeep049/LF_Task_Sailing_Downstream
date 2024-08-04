@@ -1,4 +1,4 @@
-## LF Task For Sailing Downstream III
+# LF Task For Sailing Downstream III
 
 Task:
 "Write a program in OCaml that reads a text file (or from the terminal). For each line of input, extract any contiguous integers into a list. Emit the list. Sum the list. Emit the sum Finally, emit the sum of all of the numbers. Example input:
