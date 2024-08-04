@@ -36,4 +36,28 @@ This method utilizes OCaml's Str module:
 1. Results are formatted according to the example output provided.
 
 
+<h2> Outputs </h2>
+
+<h3> Input </h3>
+
+```bash
+I am Joydeep
+I am also 01
+
+100
+kvhbfvksb
+sfkjbsgb7addbdk7
+STOP
+```
+<h3> Output </h3>
+
+```bash
+    = 0
+1 = 1
+= 0
+100 = 100
+= 0
+7 + 7 = 14
+0 + 1 + 0 + 100 + 0 + 14 = 115
+```
 
