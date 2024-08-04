@@ -12,7 +12,6 @@
 
   jalr: broken 2 times
 ```
-<br>
 
 <h3>Example output </h3>
 
