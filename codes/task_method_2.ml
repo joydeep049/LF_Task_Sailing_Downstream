@@ -1,5 +1,3 @@
-#require "str"
-
 let extract_numbers_from_joy line =
   let reg = Str.regexp "[0-9]+" in
   let rec helper acc pos =
@@ -66,3 +64,5 @@ let joy_main () =
   let all_sum_strings = List.map string_of_int all_sums in
   if all_sums = [] then print_endline "= 0"
   else print_endline (String.concat " + " all_sum_strings ^ " = " ^ string_of_int grand_total)
+
+joy_main()
