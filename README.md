@@ -74,13 +74,13 @@ STOP
  cd LF_Task_Sailing_Downstream
  ```
 
- 1. Compile the program using OCamlFind
+ 2. Compile the program using OCamlFind
 
  ```bash
  ocamlfind ocamlc -o program_method_1 -package str -linkpkg codes/task_method_1.ml
  ```
 
- 1. Run the program from the terminal 
+ 3. Run the program from the terminal 
 
  ```bash
  ./program_method_1
