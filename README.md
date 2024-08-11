@@ -65,3 +65,23 @@ STOP
 0 + 1 + 0 + 100 + 0 + 14 = 115
 ```
 
+<h3> How to Run the code </h3>
+
+ 1. Fork the repository 
+
+ ```bash
+ git clone https://github.com/joydeep049/LF_Task_Sailing_Downstream.git
+ cd LF_Task_Sailing_Downstream
+ ```
+
+ 1. Compile the program using OCamlFind
+
+ ```bash
+ ocamlfind ocamlc -o program_method_1 -package str -linkpkg codes/task_method_1.ml
+ ```
+
+ 1. Run the program from the terminal 
+
+ ```bash
+ ./program_method_1
+ ```
